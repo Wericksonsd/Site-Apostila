@@ -38,6 +38,7 @@ header{
 main{
   padding: 10px;
   padding-top: 50px;
+  padding-bottom: 70px;
   font-family: var(--montserat);
   color: rgb(31, 31, 31);
 }
@@ -76,7 +77,26 @@ main{
 }
 
 #conteudo{
-  height: 2000px;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+#conteudo h1{
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#conteudo h2{
+  text-align: left;
+}
+
+.negrito{
+  font-weight: 700;
+}
+
+.italico{
+  font-style: italic;
 }
 
 footer{
