@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <div id='background'>
-        <div className='tela'>
           <header></header>
           <main>
             <h2 id='Lets'>Let's build the future together</h2>
@@ -26,8 +25,7 @@ function App() {
               <div className='exercicios'>
                 
               </div>
-          </main>
-        </div>        
+          </main>        
         <footer>DESENVOLVIDO POR ABRINDO PORTAS</footer>        
       </div>
     </>
