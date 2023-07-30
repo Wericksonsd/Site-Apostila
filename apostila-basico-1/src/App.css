@@ -48,11 +48,13 @@
 section{
   height: 100%;
   grid-row: 1;
-  background-color: var(--corAmarelo);
+  /*background: var(--corBranco) url(assets/Transparente-26.png) no-repeat center center;
+  background-size: contain;*/
   display: grid;
   grid-template-rows: 20% 8% 72%;    
   overflow-y: auto;
 }
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////
@@ -88,6 +90,16 @@ article{
   background-color: var(--corRosa);
   height: 100%;
   grid-row: 2;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 /*

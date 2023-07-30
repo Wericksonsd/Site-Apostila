@@ -12,7 +12,7 @@ function App() {
               <div> </div>
               <h3>APOSTILA BÁSICO</h3>            
               </header>
-            <article>aa</article>
+            <article id='menubar'>aa</article>
             <main>
               <h2 id='Lets'>Let's build the future together</h2>
               <h3></h3>
@@ -34,6 +34,21 @@ function App() {
           </section>     
         <footer>DESENVOLVIDO POR ABRINDO PORTAS</footer>        
       </div>
+      <script>
+        window.onscroll = function() {myFunction()};
+      
+        var navbar = document.querySelector("#menubar");
+      
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+          } else {
+              navbar.classList.remove("sticky");
+          }
+        }
+      </script>
     </>
   )
 }
