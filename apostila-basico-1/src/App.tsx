@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       <div id='background'>
-          <header></header>
+          <header>ABRINDO PORTAS</header>
+          <article>aa</article>
           <main>
             <h2 id='Lets'>Let's build the future together</h2>
             <h3></h3>

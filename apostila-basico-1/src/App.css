@@ -14,27 +14,42 @@
 :root{
   --roboto: font-family: 'Roboto Slab', serif;
   --montserat: font-family: 'Montserat';
+  --corAzul:  #211F45;
+  --corAzul2:  #2D2B61;
+  --corAmarelo:  #F2C454;
+  --corRosa:  #F07C7E;
+  --corBranco:  #F5F5FA;
 }
 
 #background{
-  height: 100%;
-  width: 100%;
-  background-color: rgb(63, 59, 59);
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(231, 231, 231);
   display: grid;
-  grid-template-rows: 15%, 5%, 65%, 10%, 5%;
+  grid-template-rows: 17% 7% 73% 3%;
 }
 
 header{
   background-color: rgb(14, 9, 78);
+  height: 100%;
   grid-row: 1;
 }
 
+article{
+  background-color: var(--corRosa);
+  height: 100%;
+  grid-row: 2;
+}
+
 main{
+  height: 100%;
   padding: 10px;
   padding-top: 50px;
   padding-bottom: 70px;
   font-family: var(--montserat);
   color: rgb(31, 31, 31);
+  grid-row: 3;  
+  overflow-y: auto;
 }
 
 #Lets{
@@ -94,13 +109,12 @@ main{
 }
 
 footer{
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  height: 5%;
+  height: 100%;
   background-color: rgb(216, 138, 35);
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-row: 4;
 }
